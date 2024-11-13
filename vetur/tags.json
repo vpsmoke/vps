@@ -1,0 +1,302 @@
+{
+  "o-accordion": {
+    "attributes": [],
+    "description": ""
+  },
+  "OAccordion": {
+    "attributes": [],
+    "description": ""
+  },
+  "avatar-multiple": {
+    "attributes": [
+      "items"
+    ],
+    "description": ""
+  },
+  "AvatarMultiple": {
+    "attributes": [
+      "items"
+    ],
+    "description": ""
+  },
+  "o-badge": {
+    "attributes": [],
+    "description": ""
+  },
+  "OBadge": {
+    "attributes": [],
+    "description": ""
+  },
+  "o-button": {
+    "attributes": [],
+    "description": ""
+  },
+  "OButton": {
+    "attributes": [],
+    "description": ""
+  },
+  "o-check": {
+    "attributes": [],
+    "description": ""
+  },
+  "OCheck": {
+    "attributes": [],
+    "description": ""
+  },
+  "o-chip": {
+    "attributes": [],
+    "description": ""
+  },
+  "OChip": {
+    "attributes": [],
+    "description": ""
+  },
+  "o-counter": {
+    "attributes": [
+      "bg",
+      "color"
+    ],
+    "description": ""
+  },
+  "OCounter": {
+    "attributes": [
+      "bg",
+      "color"
+    ],
+    "description": ""
+  },
+  "syntax-highlight": {
+    "attributes": [
+      "code"
+    ],
+    "description": ""
+  },
+  "SyntaxHighlight": {
+    "attributes": [
+      "code"
+    ],
+    "description": ""
+  },
+  "token-clipboard": {
+    "attributes": [],
+    "description": ""
+  },
+  "TokenClipboard": {
+    "attributes": [],
+    "description": ""
+  },
+  "base-header": {
+    "attributes": [],
+    "description": ""
+  },
+  "BaseHeader": {
+    "attributes": [],
+    "description": ""
+  },
+  "base-header-menu": {
+    "attributes": [],
+    "description": ""
+  },
+  "BaseHeaderMenu": {
+    "attributes": [],
+    "description": ""
+  },
+  "o-input": {
+    "attributes": [],
+    "description": ""
+  },
+  "OInput": {
+    "attributes": [],
+    "description": ""
+  },
+  "kanban-card": {
+    "attributes": [
+      "item",
+      "visaoExpandida"
+    ],
+    "description": ""
+  },
+  "KanbanCard": {
+    "attributes": [
+      "item",
+      "visaoExpandida"
+    ],
+    "description": ""
+  },
+  "kanban-col": {
+    "attributes": [
+      "cards",
+      "colData"
+    ],
+    "description": ""
+  },
+  "KanbanCol": {
+    "attributes": [
+      "cards",
+      "colData"
+    ],
+    "description": ""
+  },
+  "kanban-header": {
+    "attributes": [],
+    "description": ""
+  },
+  "KanbanHeader": {
+    "attributes": [],
+    "description": ""
+  },
+  "kanban-item-editable": {
+    "attributes": [
+      "value",
+      "type",
+      "editable"
+    ],
+    "description": ""
+  },
+  "KanbanItemEditable": {
+    "attributes": [
+      "value",
+      "type",
+      "editable"
+    ],
+    "description": ""
+  },
+  "kanban-modal": {
+    "attributes": [
+      "data",
+      "popUpTags",
+      "tags"
+    ],
+    "description": ""
+  },
+  "KanbanModal": {
+    "attributes": [
+      "data",
+      "popUpTags",
+      "tags"
+    ],
+    "description": ""
+  },
+  "kanban-modal-right": {
+    "attributes": [],
+    "description": ""
+  },
+  "KanbanModalRight": {
+    "attributes": [],
+    "description": ""
+  },
+  "kanban-section-header": {
+    "attributes": [
+      "icon",
+      "text",
+      "fonte"
+    ],
+    "description": ""
+  },
+  "KanbanSectionHeader": {
+    "attributes": [
+      "icon",
+      "text",
+      "fonte"
+    ],
+    "description": ""
+  },
+  "kanban-tags-popup": {
+    "attributes": [
+      "tags",
+      "value"
+    ],
+    "description": ""
+  },
+  "KanbanTagsPopup": {
+    "attributes": [
+      "tags",
+      "value"
+    ],
+    "description": ""
+  },
+  "menu-li": {
+    "attributes": [
+      "data",
+      "sidebar",
+      "showHeader"
+    ],
+    "description": ""
+  },
+  "MenuLi": {
+    "attributes": [
+      "data",
+      "sidebar",
+      "showHeader"
+    ],
+    "description": ""
+  },
+  "menu-logo": {
+    "attributes": [],
+    "description": ""
+  },
+  "MenuLogo": {
+    "attributes": [],
+    "description": ""
+  },
+  "menu-multi-level": {
+    "attributes": [
+      "menu"
+    ],
+    "description": ""
+  },
+  "MenuMultiLevel": {
+    "attributes": [
+      "menu"
+    ],
+    "description": ""
+  },
+  "base-modal": {
+    "attributes": [],
+    "description": ""
+  },
+  "BaseModal": {
+    "attributes": [],
+    "description": ""
+  },
+  "o-radio": {
+    "attributes": [],
+    "description": ""
+  },
+  "ORadio": {
+    "attributes": [],
+    "description": ""
+  },
+  "o-select": {
+    "attributes": [],
+    "description": ""
+  },
+  "OSelect": {
+    "attributes": [],
+    "description": ""
+  },
+  "o-table": {
+    "attributes": [],
+    "description": ""
+  },
+  "OTable": {
+    "attributes": [],
+    "description": ""
+  },
+  "text-icon": {
+    "attributes": [
+      "icon",
+      "text",
+      "iconClass"
+    ],
+    "description": ""
+  },
+  "TextIcon": {
+    "attributes": [
+      "icon",
+      "text",
+      "iconClass"
+    ],
+    "description": ""
+  }
+}

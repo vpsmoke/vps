@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "bradlc.vscode-tailwindcss",
+    "syler.sass-indented",
+    "rvest.vs-code-prettier-eslint",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "abdelaziz18003.quasar-snippets"
+  ]
+  // "recommendations": [
+  //   "dbaeumer.vscode-eslint",
+  //   "editorconfig.editorconfig",
+  //   "vue.volar",
+  //   "wayou.vscode-todo-highlight"
+  // ],
+  // "unwantedRecommendations": [
+  //   "octref.vetur",
+  //   "hookyqr.beautify",
+  //   "dbaeumer.jshint",
+  //   "ms-vscode.vscode-typescript-tslint-plugin"
+  // ]
+}

@@ -1,0 +1,88 @@
+.blur--mode
+  &.body--light
+    #q-app
+      --sidebar-bg: rgba(var(--white),0.6)
+      --Nv1-sidebar-bg: rgba(var(--white),0.6)
+      --Nv2-sidebar-bg: rgba(var(--white),0.6)
+      --kanban-col-bg: rgba(var(--neutral-10), 0.5)
+    .kanban-modal-right .content
+      backdrop-filter: blur(40px)
+      background: rgba(var(--neutral-10), 0.5) !important
+
+  .OSidebar,
+  .submenu,
+  .q-header,
+  .q-menu
+    backdrop-filter: blur(16px)
+  .q-menu
+    background: rgba(var(--white), 0.6) !important
+  .kanban-modal
+    transition: background .1s ease-out 0s
+
+    header
+      transition: background .3s ease-in 0.1s
+
+  // &.kanban-modal-show
+  //   .kanban-modal
+  //     background: transparent !important
+  //     // background: linear-gradient(336deg, #d9d9d917 -40.48%, rgb(0 0 0 / 69%) 100%) !important
+  //     > header
+  //       background: rgba(var(--white),0.7) !important
+  //       backdrop-filter: blur(16px)
+
+  &.body--dark
+    #q-app
+      --sidebar-bg: rgb(var(--d-neutral-10),0.4)
+      --Nv0-sidebar-border: 1px solid rgba(var(--white),0.05)
+      --Nv1-sidebar-bg: rgb(var(--d-neutral-20),0.8)
+      --Nv2-sidebar-bg: rgb(var(--d-neutral-30),0.8)
+      --kanban-col-bg: rgba(var(--d-neutral-10), 0.5)
+
+    .kanban-modal
+      transition: background .1s ease-out 0s
+
+      header
+        transition: background .3s ease-in 0.1s
+
+    &.kanban-modal-show
+      .kanban-modal
+        background: linear-gradient(254deg, #d9d9d917 -40.48%, rgb(0 0 0 / 52%) 100%) !important
+        // background: linear-gradient(336deg, #d9d9d917 -40.48%, rgb(0 0 0 / 69%) 100%) !important
+        > header
+          background: rgba(var(--white),0.1) !important
+          backdrop-filter: blur(16px)
+
+    .kanban-modal-right .content
+      // background: rgba(var(--white), 0.1) !important
+      // backdrop-filter: blur(16px)
+      // background: linear-gradient(101deg, #d9d9d92b -40.48%, rgb(0 0 0 / 33%) 100%) !important
+      background: rgba(var(--white), 0.1) !important
+      backdrop-filter: blur(16px)
+      &::after
+        content: ""
+        z-index: -1
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        background: linear-gradient(254deg, #d9d9d917 -40.48%, rgba(0, 0, 0, 0.52) 100%) !important
+
+  .q-header
+    backdrop-filter: blur(16px)
+  .OSidebar,
+  .submenu
+    backdrop-filter: blur(20px)
+  .kanban-col
+    backdrop-filter: blur(40px)
+
+  .q-menu.q-dark
+    background: rgba(var(--d-neutral-30), 0.3) !important
+    backdrop-filter: blur(16px) !important
+  .q-field.q-field--dark .q-field__control .q-field__label
+    background: rgba(var(--d-neutral-30), 0.1)
+  .q-header
+    background: rgba(0,0,0, .3) !important
+  .base-header,
+  .kanban-header
+    border-bottom: 1px solid rgba(var(--white), 0.04) !important

@@ -1,0 +1,22 @@
+{
+  "theme_color": "#6F6969",
+  "background_color": "#6F6969",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "https://vps.novadata.com.br",
+  "name": "VPS",
+  "short_name": "VPS",
+  "description": "Gestão empresarial VPS",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

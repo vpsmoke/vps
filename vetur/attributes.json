@@ -1,0 +1,158 @@
+{
+  "avatar-multiple/items": {
+    "type": "array|number"
+  },
+  "AvatarMultiple/items": {
+    "type": "array|number"
+  },
+  "o-counter/bg": {
+    "type": "string"
+  },
+  "OCounter/bg": {
+    "type": "string"
+  },
+  "o-counter/color": {
+    "type": "string"
+  },
+  "OCounter/color": {
+    "type": "string"
+  },
+  "syntax-highlight/code": {
+    "type": "string"
+  },
+  "SyntaxHighlight/code": {
+    "type": "string"
+  },
+  "kanban-card/item": {
+    "type": "object"
+  },
+  "KanbanCard/item": {
+    "type": "object"
+  },
+  "kanban-card/visaoExpandida": {
+    "type": "boolean"
+  },
+  "KanbanCard/visaoExpandida": {
+    "type": "boolean"
+  },
+  "kanban-col/cards": {
+    "type": "array"
+  },
+  "KanbanCol/cards": {
+    "type": "array"
+  },
+  "kanban-col/colData": {
+    "type": "object"
+  },
+  "KanbanCol/colData": {
+    "type": "object"
+  },
+  "kanban-item-editable/value": {
+    "type": "string"
+  },
+  "KanbanItemEditable/value": {
+    "type": "string"
+  },
+  "kanban-item-editable/type": {
+    "type": "string"
+  },
+  "KanbanItemEditable/type": {
+    "type": "string"
+  },
+  "kanban-item-editable/editable": {
+    "type": "boolean"
+  },
+  "KanbanItemEditable/editable": {
+    "type": "boolean"
+  },
+  "kanban-modal/data": {
+    "type": "object"
+  },
+  "KanbanModal/data": {
+    "type": "object"
+  },
+  "kanban-modal/popUpTags": {
+    "type": "boolean"
+  },
+  "KanbanModal/popUpTags": {
+    "type": "boolean"
+  },
+  "kanban-modal/tags": {
+    "type": "array"
+  },
+  "KanbanModal/tags": {
+    "type": "array"
+  },
+  "kanban-section-header/icon": {
+    "type": "string"
+  },
+  "KanbanSectionHeader/icon": {
+    "type": "string"
+  },
+  "kanban-section-header/text": {
+    "type": "string"
+  },
+  "KanbanSectionHeader/text": {
+    "type": "string"
+  },
+  "kanban-section-header/fonte": {
+    "type": "string"
+  },
+  "KanbanSectionHeader/fonte": {
+    "type": "string"
+  },
+  "kanban-tags-popup/tags": {
+    "type": "array"
+  },
+  "KanbanTagsPopup/tags": {
+    "type": "array"
+  },
+  "kanban-tags-popup/value": {
+    "type": "boolean"
+  },
+  "KanbanTagsPopup/value": {
+    "type": "boolean"
+  },
+  "menu-li/data": {
+    "type": "object"
+  },
+  "MenuLi/data": {
+    "type": "object"
+  },
+  "menu-li/sidebar": {
+    "type": "null"
+  },
+  "MenuLi/sidebar": {
+    "type": "null"
+  },
+  "menu-li/showHeader": {
+    "type": "null"
+  },
+  "MenuLi/showHeader": {
+    "type": "null"
+  },
+  "menu-multi-level/menu": {
+    "type": "array"
+  },
+  "MenuMultiLevel/menu": {
+    "type": "array"
+  },
+  "text-icon/icon": {
+    "type": "string"
+  },
+  "TextIcon/icon": {
+    "type": "string"
+  },
+  "text-icon/text": {
+    "type": "string"
+  },
+  "TextIcon/text": {
+    "type": "string"
+  },
+  "text-icon/iconClass": {
+    "type": "string"
+  },
+  "TextIcon/iconClass": {
+    "type": "string"
+  }
+}
