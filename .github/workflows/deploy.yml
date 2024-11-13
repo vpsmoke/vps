@@ -1,0 +1,42 @@
+name: Build Quasar App
+
+# Disparar o workflow sempre que houver push para a branch main ou pull request
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Pode ser macos-latest ou windows-latest se necessário
+
+    steps:
+      # Passo 1: Checar o código do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Passo 2: Configurar Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'  # Use a versão do Node.js compatível com seu projeto
+
+      # Passo 3: Instalar dependências
+      - name: Install dependencies
+        run: npm install
+
+      # Passo 4: Build do Quasar App
+      - name: Build Quasar App
+        run: npm run build
+
+      # Passo 5: Publicar o build (opcional, se quiser fazer deploy)
+      - name: Deploy build (opcional)
+        run: |
+          # Aqui você pode adicionar passos para fazer deploy, como para Netlify, Vercel, ou Firebase.
+          # Exemplo com Netlify CLI:
+          # npm install -g netlify-cli
+          # netlify deploy --prod --dir=dist/spa
+        if: success()  # Este passo só será executado se o build for bem-sucedido
