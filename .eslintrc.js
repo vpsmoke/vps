@@ -33,7 +33,6 @@ module.exports = {
   plugins: [
     // https://eslint.vuejs.org/user-guide/#why-doesn-t-it-work-on-vue-files
     // required to lint *.vue files
-    'no-relative-import-paths',
     'vue',
   ],
 
@@ -72,10 +71,7 @@ module.exports = {
 
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-relative-import-paths/no-relative-import-paths': [
-      'warn',
-      { allowSameFolder: true, rootDir: 'src', prefix: 'src' },
-    ],
+
     'no-multiple-empty-lines': ['error', { max: 3, maxBOF: 3, maxEOF: 3 }],
   },
 }
